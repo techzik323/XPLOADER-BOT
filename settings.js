@@ -21,7 +21,7 @@ global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁�
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254796180105' 
+global.ownernumber = process.env.OWNER_NUMBER || '256751617788' 
 //Type your number here
 
 //=================================================//
@@ -64,9 +64,9 @@ global.autoreact = process.env.AUTO_STATUS_REACT === 'true'
 global.anticall = process.env.ANTI_CALL === 'false'
 global.adminevent = process.env.ANNOUNCE_MSG === 'false'
 global.groupevent = process.env.GROUP_ANNOUNCE_MSG === 'false'
-global.welcome = process.env.WELCOME_MSG === 'false'
+global.welcome = process.env.WELCOME_MSG === 'true'
 //=================================================//
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '📍'
 //Set the emoji that you want to be reacted to status
 
 //=================================================//
@@ -76,11 +76,11 @@ global.timezones = process.env.TIMEZONE || "Africa/Nairobi"
 //=================================================//
 // 
 //=================================================//
-global.autoblocknumber = process.env.AUTO_BAN || '' 
+global.autoblocknumber = process.env.AUTO_BAN || '+92' 
 //set autoblock country code
 
 //=================================================//
-global.antiforeignnumber = process.env.AUTO_BLOCK || '' 
+global.antiforeignnumber = process.env.AUTO_BLOCK || '+92' 
 //set anti foreign number country code
 
 //=================================================//
